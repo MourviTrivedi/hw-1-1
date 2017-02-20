@@ -18,9 +18,7 @@ $product_description_escaped = htmlspecialchars($product_description);
 <html>
 <head>
 <title>Product Discount Calculator</title>
-<link rel="stylesheet"
-type="text/css"
-href="main.css">
+<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 <main>
@@ -33,8 +31,7 @@ href="main.css">
 <span><?php echo $discount_percent_formatted; ?></span><br>
 <label>Discount Amount:</label>
 <span><?php echo $discount_formatted; ?></span><br>
-<label>Discount Price:</label>																	
-<span><?php echo $discount_price_formatted; ?></span><br>
+<label>Discount Price:</label>								<span><?php echo $discount_price_formatted; ?></span><br>
 </main>
 </body>
 </html>
